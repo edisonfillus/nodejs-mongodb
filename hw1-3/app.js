@@ -3,7 +3,6 @@ var express = require('express'),
     crypto = require('crypto'),
     engines = require('consolidate'),
     MongoClient = require('mongodb').MongoClient;
-    assert = require('assert');
 
 app.engine('html', engines.nunjucks);
 app.set('view engine', 'html');
