@@ -5,8 +5,10 @@
   "main": "app.js",
   "dependencies": {
     "command-line-args": "~2.1.4",
-    "mongodb": "2.2.35"
+    "mongodb": "2.2.35",
+    "dotenv": "~1.2.0",
+    "twitter": "~1.2.5"
   },
   "author": "Shannon Bradshaw",
-  "license": "0BSD"
+  "license": "BSD"
 }
